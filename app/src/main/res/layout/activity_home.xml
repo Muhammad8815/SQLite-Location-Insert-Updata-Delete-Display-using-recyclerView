@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/my_theme"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp">
+        <Button
+            android:id="@+id/insertd"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:background="@drawable/btn_click" />
+        <Button
+            android:id="@+id/updated"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@drawable/btn_click" />
+        <Button
+            android:id="@+id/displayd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:layout_weight="1"
+            android:background="@drawable/btn_click"/>
+        <Button
+            android:id="@+id/deleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:background="@drawable/btn_click"/>
+        <Button
+            android:id="@+id/Recycler_Vieww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler View"
+            android:layout_weight="1"
+            android:background="@drawable/btn_click"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/logout"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_click"
+        android:layout_marginBottom="20dp"
+        android:text="Logout"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="68dp">
+        <TextView
+            android:id="@+id/RLName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Name"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/RDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Description will show here"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/RImageView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+</LinearLayout>
